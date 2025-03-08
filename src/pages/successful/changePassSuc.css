@@ -1,0 +1,14 @@
+.thick_logo {
+  color: green;
+  font-size: 800%;
+  margin-bottom: 1rem;
+}
+
+.middle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  border: none;
+}

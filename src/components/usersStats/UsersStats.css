@@ -1,0 +1,35 @@
+.--user-summary {
+  width: 100%;
+}
+
+.--info-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  /* // border-bottom: 3px solid var(--light-blue); */
+  padding: 5px;
+  background-color: #f5f6fa;
+}
+
+.card1 {
+  background-color: #b624ff;
+}
+.card2 {
+  background-color: #32963d;
+}
+.card3 {
+  background-color: #03a5fc;
+}
+.card4 {
+  background-color: #c41849;
+}
+
+@media screen and (max-width: 700px) {
+  .--info-summary {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

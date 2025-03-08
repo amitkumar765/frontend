@@ -1,0 +1,12 @@
+.--nav-menu {
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.--menu-link {
+  margin: 0 0.5rem;
+}
